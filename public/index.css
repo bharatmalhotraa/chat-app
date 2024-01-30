@@ -1,0 +1,84 @@
+.Container{
+    display: flex;
+    background-color: gray;
+    border: 400px;
+    margin-left: 27rem; 
+    margin-right: 38rem; 
+    margin-top: 3rem;
+    width: 600px; 
+    height: 850px; 
+    background-color: rgb(107, 100, 100); 
+    box-sizing: border-box; 
+    border: 2px solid   black; 
+    padding: 3px;
+    background-color:grey
+}
+.messagecontainer{
+    display: flex;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    flex-direction: column;
+    width: 550px;    
+    background-color: white;
+    height: 630px;
+    margin-top: 0;
+
+}
+
+.left,.right{
+    list-style-type:none;
+    max-width: 200px;
+    word-wrap: break-word;
+    margin: 12px;
+    padding: 8px 12px;
+}
+.left{
+  border-radius: 20px 20px 20px 0px;
+  background-color: black;
+  align-self: flex-start;
+  color: aliceblue;
+}
+
+.right{
+    align-self: flex-end;
+    border-radius: 20px 20px 0px 20px;
+    background-color: whitesmoke;
+}
+#input{
+    width: 530px;
+    height: 50px;
+    border-radius: 20px 20px 10px 10px;
+    border-color: black;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    border: 70px;
+    background-color: aliceblue;
+    width: 200px;
+    margin-left: 360px;
+    padding-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+    margin: 0 250px;
+}
+.logo{
+    align-self: flex-start;
+    height: 130px;
+}
+.top{
+    display: flex;
+    margin-left: 2px;
+    width: 586px;
+    background-color: black;
+    
+}
+.span{
+    font-style: italic;
+    
+}
+.final{
+    font-weight: 3000px;
+    font-size: larger;
+    font: caption;
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="Container">
+        <div id="Conversation"></div>
+    <div class="messagebox">
+    <div class="top">
+        <img src="download.png" alt="" class="logo">
+        <div class="name"> 
+            <p id="currentname">Enter your username</p>
+            <input type="text" id="nameinput" maxlength="12"><button onclick="sendmessage()">Enter</button>
+        </div>
+    </div>
+        <ul id="messagecontainer" class="messagecontainer" style="list-style: none;">
+
+        </ul>
+        <input type="text" id="input"><button onclick="sendmessage()">send</button>
+        </div>
+        
+     </div>
+    <li>
+    </li>
+ 
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js"></script>
+</body>
+
+</html>
